@@ -5,6 +5,7 @@
 
 
 使用示例:开启一个新页面
+
     var TAB_ONE_PAGE = $.classExtends(Page, {
         pageName: 'TAB_ONE_PAGE',
 
@@ -18,6 +19,8 @@
         }
     });
 
+
 var intent = new Intent({scrollEnable: true, _headerTitel: '新页面'});
                 intent.setClass($(this).data('_page'), TAB_NEW_PAGE);
                 $(this).data('_page').startPage(intent);
+
