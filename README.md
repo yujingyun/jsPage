@@ -1,5 +1,5 @@
 # jsPage
-将微网页实现为手机app体验
+将微网页实现为手机app体验(我不是前端工程师，业余时间写的，只为抛砖引玉)
 1.依赖的js插件：jquery jquery.mobile iscroll
 2.主要类：Page TabPage Intent  Api 
 
