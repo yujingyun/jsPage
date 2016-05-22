@@ -5,7 +5,18 @@
 
 
 使用示例:开启一个新页面
+    var TAB_ONE_PAGE = $.classExtends(Page, {
+        pageName: 'TAB_ONE_PAGE',
 
+        onCreate: function (view) {
+        },
+        onResume: function (view) {
+        },
+        onSRefresh: function (view) {
+        },
+        onSMore: function (view) {
+        }
+    });
 
 var intent = new Intent({scrollEnable: true, _headerTitel: '新页面'});
                 intent.setClass($(this).data('_page'), TAB_NEW_PAGE);
