@@ -6,7 +6,7 @@
 
 使用示例:开启一个新页面
 
-    var TAB_ONE_PAGE = $.classExtends(Page, {
+    var TAB_NEW_PAGE = $.classExtends(Page, {
         pageName: 'TAB_ONE_PAGE',
 
         onCreate: function (view) {
